@@ -1,0 +1,167 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,700;1,400;1,600&display=swap');
+
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+
+}
+
+.login
+{
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)),url(images/pic1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+
+.logo
+{
+	width: 40px;
+	height: 40px;
+	margin: 30px;
+	box-sizing: border-box;
+	float: left;
+	background-color: black;
+	border-radius: 50% ;
+	cursor: pointer; 
+    transition: 0.6s;
+
+}
+
+.logo:hover
+{
+		box-shadow:white;
+		width: 50px;
+	height: 50px;
+    transform: translate(0px , -8px);
+
+    
+}
+
+.form
+{
+	width: 35%;
+	height: 75%;
+	position: relative;
+	margin: 6% auto;
+	background: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75));
+	padding: 10px;
+	transition: 0.5s;
+	border-radius: 20px;
+}
+.form:hover
+{
+	
+	width: 35%;
+	height: 75%;
+	border: 2px solid gray;
+	border-radius: 20px;
+}
+.buttons
+{
+	width: 220px;
+	margin: 35px auto;
+	position: relative;
+	box-shadow: transparent;
+
+}
+.buttons:hover
+{
+	background:transparent;
+    
+}
+.butt
+{
+
+width: 220px;
+padding: 10px 30px ;
+color: black;
+font-weight: bold;
+cursor: pointer;
+margin: auto;
+background: orange;
+border: 0;
+outline: none;
+border-radius: 30px;
+}
+.butt:hover
+{
+	color: orange;
+	font-weight: bold;
+	 background: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75));
+    background-size: cover;
+}
+
+
+
+
+.input-text
+{
+	position: absolute;
+	top: 140px;
+	width: 280px;
+	transition: 0.5s;
+	margin-left: 50px;
+
+}
+.text-field
+{
+	width: 100%;
+	padding:10px 0;
+	margin: 5px 0;
+	border-left: 0;
+	border-right:0;
+  	border-top: 0;
+    border-bottom:1px solid orange ;
+    outline: none;
+    background: transparent;
+    color: white;
+
+}
+.submita
+{
+width: 85%;
+padding: 10px 30px ;
+color: black;
+font-weight: bold;
+cursor: pointer;
+display: block;
+margin: auto;
+background: orange;
+border: 0;
+outline: none;
+border-radius: 30px ;
+transition: 0.3s;
+}
+.submita:hover
+{
+	color: white;
+	box-shadow: 0 0 20px 9px white;
+	background: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75));
+    background-size: cover;
+    font-weight:bold ;
+}
+.check
+{
+	margin: 30px 10px 30px 0 ;
+
+}
+span
+{
+	color: orange;
+	font-size: 12px;
+	bottom: 63px;
+	position: absolute;
+	cursor: pointer;
+}
+span:hover
+{
+	color: white;
+}
+
